@@ -1,0 +1,215 @@
+.mega-menu {
+	clear: both;
+	position: relative;
+	z-index: 999;
+	margin: 0 auto
+}
+.main_nav_in .widget {
+	margin-bottom: 0
+}
+.mega-menu ul.mega li, .mega-menu ul.mega ul {
+	list-style: disc inside;
+	padding: 0;
+	margin: 0
+}
+.mega-menu ul.mega ul {
+	display: none
+}
+.mega-menu ul.mega .sub ul {
+	display: block
+}
+.mega-menu ul.mega {
+	position: relative
+}
+.mega-menu ul.mega li, .mega-menu ul.mega li a {
+	float: left
+}
+.mega-menu ul.mega li a.dc-mega {
+	position: relative
+}
+.mega-menu ul.mega li a .dc-mega-icon {
+	display: block;
+	position: absolute;
+	top: 12px;
+	right: 15px;
+	width: 16px;
+	height: 16px
+}
+.mega-menu ul.mega > li{position: relative;}
+.mega-menu ul.mega li .sub-container {
+	background: #e5e5e5;
+	border-radius: 4px;
+	top: 36px;
+	left: auto !important;
+	right: auto;
+	margin-left: 0
+}
+@media screen and (min-width: 1200px){
+	.mega-menu ul.mega li .sub-container {position: absolute;}
+}
+.mega-menu ul.mega li .sub {
+	padding: 20px 20px 20px 10px
+}
+.mega-menu ul.mega li .sub-container.mega .sub {
+	padding: 15px 15px 0
+}
+.mega-menu ul.mega li .sub .row {
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 0
+}
+.mega-menu ul.mega li .sub li {
+	float: none;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 28px
+}
+.mega-menu ul.mega li .sub li.mega-hdr {
+	float: left;
+	width: 190px;
+	margin: 0;
+	height: auto!important
+}
+.mega-menu ul.mega li .sub a {
+	font-weight: 400;
+	padding: 7px 10px;
+	display: block;
+	float: none;
+	text-decoration: none
+}
+.mega-menu ul.mega li .sub li.mega-hdr a.mega-hdr-a {
+	background: 0 0;
+	box-shadow: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	height: auto!important;
+	font-weight: 400;
+	padding: 7px 8px
+}
+.mega-menu ul.mega li .sub li.mega-hdr a.mega-hdr-a:hover {
+	text-decoration: underline
+}
+.mega-menu ul.mega .sub li.mega-hdr li a {
+	font-weight: 400;
+	padding: 5px 0 5px 15px
+}
+.mega-menu ul.mega li .sub-container.non-mega .sub {
+	padding: 10px 0
+}
+.mega-menu ul.mega li .sub-container.non-mega li {
+	width: 190px
+}
+.mega-menu ul.mega li .sub-container.non-mega li a {
+	background: 0 0;
+	padding: 7px 5px 7px 22px;
+	box-shadow: none
+}
+.mega-menu ul.mega li .sub-container.non-mega li a:hover, .mega-menu ul.mega li .sub-container.non-mega li.current-menu-item a {
+	text-decoration: underline
+}
+.header #sidebar-header {
+	width: auto
+}
+.mega-menu ul.mega {
+	clear: right;
+	display: block;
+	float: left;
+	margin: 0
+}
+.mega-menu ul.mega li {
+	background: 0 0;
+	display: block;
+	margin-right: 15px
+}
+.mega-menu ul.mega li:hover {
+	background: 0 0
+}
+.mega-menu ul.mega li {
+	padding: 0
+}
+.mega-menu ul.mega li a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 10px 7px
+}
+.mega-menu ul.mega li ul.sub-menu {
+	max-width: 1170px
+}
+.mega-menu ul.mega li:hover ul.sub-menu li a:hover {
+	box-shadow: none
+}
+.mega-menu ul.mega li ul.sub-menu ul {
+	background: 0 0;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	margin: 0 8px 20px
+}
+.mega-menu ul.mega li ul.sub-menu ul li {
+	margin-right: 0
+}
+.mega-menu ul.mega li ul.sub-menu ul li a {
+	border-bottom: 1px dotted #BEBEBE;
+	border-radius: 0;
+	box-shadow: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5)
+}
+.mega-menu ul.mega li ul.sub-menu ul li a:hover {
+	text-decoration: underline
+}
+.mega-menu #searchform input[type=submit], .mega-menu #searchform label {
+	display: none
+}
+.mega-menu #searchform input[type=text] {
+	padding-left: 34px
+}
+#sidebar .mega-menu {
+	margin-bottom: 20px
+}
+#sidebar .mega-menu ul.mega {
+	display: block!important;
+	float: none;
+	clear: both;
+	width: 100%
+}
+#sidebar .mega-menu ul.mega li {
+	float: none;
+	clear: both
+}
+#sidebar .mega-menu ul.mega li a {
+	padding: 0
+}
+#sidebar .mega-menu ul.mega li .sub li.mega-hdr {
+	float: none;
+	clear: both;
+	width: 100%
+}
+#sidebar .mega-menu ul.mega li ul.sub-menu {
+	background: 0 0;
+	border: none;
+	box-shadow: none
+}
+#sidebar .mega-menu ul.mega li .sub .row {
+	width: 100%!important
+}
+#sidebar .mega-menu ul.mega li .sub-container {
+	position: static!important;
+	background: 0 0;
+	border-radius: 0
+}
+#sidebar .mega-menu ul.mega li .sub-container.mega .sub {
+	display: block!important
+}
+@media only screen and (max-width:980px) {
+.mega-menu ul.mega ul {
+	display: block!important
+}
+.mega-menu ul.mega li .sub .row {
+	width: 100%!important
+}
+.mega-menu ul.mega li ul.sub-menu {
+	max-width: 100%!important
+}
+body .mobile_header .mega-menu .nav_bg .widget {
+	display: none
+}
+}

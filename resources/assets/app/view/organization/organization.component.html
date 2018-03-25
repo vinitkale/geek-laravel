@@ -1,0 +1,536 @@
+<app-header></app-header>
+
+<section id="main" class="clearfix">
+    <div class="wrap row">
+        <div class="breadcrumb breadcrumbs columns">
+            <div class="breadcrumb-trail">
+                <span class="trail-begin">
+                    <a href="#" title="GeekMeet" rel="home" class="trail-begin">Home</a></span> <span class="sep">»</span> <span class="trail-end">Organization View</span>
+            </div>
+        </div>
+
+        <!-- start content part-->
+        <div id="content" role="main" class="large-9 small-12 columns">
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <label class="pull-right"><a class="btn btn-md primary" href="" [routerLink] = "['/organization-add']">Edit Organization</a></label>
+                    <label class="pull-right"><a class="btn btn-md primary" href="">Invite</a></label>
+                    <label class="pull-right"><a class="btn btn-md primary" href="">Join</a></label>
+                </div>
+            </div>
+            <div class="author_cont">
+                <!-- Author photo on left side start -->
+                <div class="organization-logo">
+                    <img src="http://auvac.org/uploads/organization/Noaalogo.gif" alt="admin" title="admin">
+                </div>
+                <!-- Author photo on left side end -->
+
+                <!-- Author photo on right side start -->
+                <div class="right_box form-horizontal">
+                    <h2>National Oceanic and Atmospheric Administration</h2>
+                    <div class="user_dsb">
+                        <div class="form-group">
+                            <label class="col-sm-1 col-xs-2 control-label"><i class="fa fa-map-marker"></i></label>
+                            <span class="col-sm-10 col-xs-10">AUVAC 86 Old Concord Turnpike Lee, New Hampshire 03861 USA</span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-1 control-label"><i class="fa fa-envelope-o"></i></label>
+                            <span class="col-sm-10">info@auvac.org</span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-1 control-label"><i class="fa fa-phone"></i></label>
+                            <span class="col-sm-10">(360) 440-2812</span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-1 control-label"><i class="fa fa-globe"></i></label>
+                            <span class="col-sm-10">www.auvac.org</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Author photo on right side end -->
+            </div>
+            <div class="entry-content event-description">
+                <h2>About <small></small></h2>
+                <div class="entry-content frontend-entry-content ">
+                    <p>This is organization description section where you can write in detail about your event. We have provided an editor for entering this information on Submit event page so your visitors will be able to format their description easily. They can highlight their content with 
+                        <strong>Bold</strong>, <em>Italic</em>, 
+                        <span style="text-decoration: underline;">Underline</span> options, they can also use ordered and un-ordered lists:
+                    </p>
+                </div>
+
+
+                <!-- 728x90 ad_space -->
+                <div id="templatic_text-1" class="widget templatic_text" style="display: none;">
+                    <div class="widget-wrap widget-inside">		
+                        <div class="textwidget text-center">	
+                            <a href="">
+                                <img src="app/assets/images/ads images/728x90.jpg">
+                            </a>	
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" >
+                    <div class="col-sm-6">
+                        <!-- 300x250 ad_space -->
+                        <div id="templatic_text-1" class="widget templatic_text">
+                            <div class="widget-wrap widget-inside">		
+                                <div class="textwidget text-center">	
+                                    <a href="">
+                                        <img src="app/assets/images/ads images/300x250.jpg">
+                                    </a>	
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <!-- 300x250 ad_space -->
+                        <div id="templatic_text-1" class="widget templatic_text">
+                            <div class="widget-wrap widget-inside">		
+                                <div class="textwidget text-center">	
+                                    <a href="">
+                                        <img src="app/assets/images/ads images/300x250.jpg">
+                                    </a>	
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="smart_tab">
+                <ul class="tabs">
+
+                    <li class="tab-title " role="presentational"><a href="" role="tab" tabindex="1" aria-selected="false">Past Events</a></li>
+
+                    <li class="tab-title active" role="presentational"><a href="" role="tab" tabindex="2" aria-selected="false">Current Events</a></li>
+                    <li class="tab-title " role="presentational"><a href="" role="tab" tabindex="3" aria-selected="false">Upcoming Events</a></li>
+                </ul>  
+
+                <div class="directory_manager_tab clearfix">
+                    <div class="sort_options">
+                        <ul class="view_mode viewsbox">
+                            <li><a class="switcher first gridview  active" id="gridview" href="#">GRID VIEW</a></li>
+                            <li><a class="switcher last listview" id="listview" href="#">LIST VIEW</a></li>
+                        </ul>	
+                        <div class="tev_sorting_option">
+                            <form action="" method="get" id="event_sortby_frm" name="event_sortby_frm">
+                                <div class="select-wrap">
+                                    <select name="event_sortby" id="event_sortby" class="tev_options_sel" style="z-index: 10; opacity: 0;">
+                                        <option selected="selected">Sort By</option>
+                                        <option value="alphabetical">Alphabetical</option>
+                                        <option value="title_asc">Title Ascending</option>
+                                        <option value="title_desc">Title Descending</option>
+                                        <option value="date_asc">Publish Date Ascending</option>
+                                        <option value="date_desc">Publish Date Descending</option>
+                                        <option value="stdate_low_high">Start Date low to high</option>
+                                        <option value="stdate_high_low">Start Date high to low</option>
+                                        <option value="reviews">Reviews</option>
+                                        <option value="rating">Rating</option>
+                                        <option value="random">Random</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                    </div><!--END sort_options div -->
+                </div><!-- END directory_manager_tab Div -->
+            </div>
+
+            <!--Start loop taxonomy page-->
+
+            <section id="loop_event_taxonomy" class="search_result_listing list">
+                <article class="post  event-27073 ">
+                    <div class="event_img"> 
+                        <a href="">
+                            <img itemprop="image" src="http://demo.templatic.com/eventum/../images/event/event-(6)-250x165.jpg" alt="" title="event-(6)">
+                        </a>
+
+                    </div>
+                    <div class="entry">
+                        <!--start post type title -->
+
+                        <div class="event-wrapper">
+                            <div class="event-title">
+                                <span class="date">
+                                    08			<span>Jul</span>
+                                </span>
+                                <h2 class="entry-title">
+                                    <a itemprop="url" href="" title="Amazing Amy the Contortionist! With Rachel Mason &amp; Mark Golamco!" rel="bookmark">Amazing Amy the Contortionist! With Rachel Mason &amp; Mark Golamco!</a>
+                                </h2>
+                                <div class="listing_rating">
+                                    <div class="directory_rating_row">
+                                        <span class="single_rating"> 
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end post type title -->
+                            <!-- Entry details start -->
+                            <div class="entry-details">
+                                <p class="address" itemprop="address">39 Essex St New York, NY 10002</p>
+                                <p class="event_date">
+                                    <span>
+                                        <span itemprop="startDate" content="2014-07-08T12:00">Jul 8, 2014</span>
+                                        To <span itemprop="endDate" content="2017-07-08T14:00">Jul 8, 2017</span>
+                                    </span>
+                                </p>
+                                <p class="time"><span>12:00 pm To 2:00 pm</span></p><!--googleoff: all-->
+                                <p class="phone">+86 10 6538 5537</p><!--googleon: all-->									
+                            </div>
+                        </div>
+
+                        <!--Start Post Content -->
+                        <div class="rev_pin">
+                            <ul> 
+                                <li class="favourite">
+                                    <span id="tmplfavorite_27073" class="fav fav_27073">
+                                        <a href="javascript:void(0);" data-reveal-id="tmpl_reg_login_container" id="tmpl_login_frm_27073" data-id="27073" class="addtofav  small_btn">Add to favorites</a>
+                                    </span>
+                                </li>
+                                <li class="review"> <a id="reviews_show" href="">8 &nbsp;</a></li>
+                                <li class="pinpoint"><a id="pinpoint_27073" class="ping" href="">Pinpoint</a></li>               
+                            </ul>
+                        </div>							
+                    </div>
+                </article>
+                <article class="post  event-27089 ">
+                    <div class="event_img"> 
+                        <a href="">
+                            <img itemprop="image" src="http://demo.templatic.com/eventum/../images/event/event-(8)-250x165.jpg" alt="" title="event-(8)">
+                        </a>
+
+                    </div>
+                    <div class="entry">
+                        <!--start post type title -->
+                        <div class="event-wrapper">
+                            <div class="event-title">
+                                <span class="date">
+                                    08			<span>Jul</span>
+                                </span>
+                                <h2 class="entry-title">
+                                    <a itemprop="url" href="" title="hypergender burlesque: haunted house" rel="bookmark">hypergender burlesque: haunted house</a>
+                                </h2>
+                                <div class="listing_rating">
+                                    <div class="directory_rating_row">
+                                        <span class="single_rating"> 
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end post type title -->
+                            <!-- Entry details start -->
+                            <div class="entry-details">
+                                <p class="address" itemprop="address">59 East 4th Street New York, NY 10003</p>
+                                <p class="event_date">
+                                    <span>
+                                        <span itemprop="startDate" content="2014-07-08T14:00">Jul 8, 2014</span>
+                                        To <span itemprop="endDate" content="2019-07-08T16:00">Jul 8, 2019</span>
+                                    </span>
+                                </p>
+                                <p class="time"><span>2:00 pm To 4:00 pm</span></p><!--googleoff: all-->
+                                <p class="phone">+86 10 6538 5537</p><!--googleon: all-->									
+                            </div>
+                        </div>
+
+                        <!--Start Post Content -->
+                        <div class="rev_pin"><ul> 
+                                <li class="favourite">				
+                                    <span id="tmplfavorite_27089" class="fav fav_27089">
+                                        <a href="javascript:void(0);" data-reveal-id="tmpl_reg_login_container" id="tmpl_login_frm_27089" data-id="27089" class="addtofav  small_btn">Add to favorites</a></span>
+                                </li>
+
+                                <li class="review"> <a id="reviews_show" href="http://demo.templatic.com/eventum/city/new-york/event/hypergender-burlesque-haunted-house/#comments">8 &nbsp;</a></li>
+
+                                <li class="pinpoint"><a id="pinpoint_27089" class="ping" href="#map_canvas">Pinpoint</a></li>               
+                            </ul></div>							</div>
+                </article>
+                <article class="post  event-27121 ">
+                    <div class="event_img"> 
+                        <a href="">
+                            <img itemprop="image" src="http://demo.templatic.com/eventum/../images/event/event-(13)-250x165.jpg" alt="" title="event-(13)">
+                        </a>
+
+                    </div>
+                    <div class="entry">
+                        <!--start post type title -->
+                        <div class="event-wrapper">
+                            <div class="event-title">
+                                <span class="date">
+                                    08			<span>Jul</span>
+                                </span>
+                                <h2 class="entry-title">
+                                    <a itemprop="url" href="" title="Disaster! A 70’s Movie…Musical!" rel="bookmark">Disaster! A 70’s Movie…Musical!</a>
+                                </h2>
+                                <div class="listing_rating">
+                                    <div class="directory_rating_row">
+                                        <span class="single_rating"> 
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i> 
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end post type title -->
+                            <!-- Entry details start -->
+                            <div class="entry-details">
+                                <p class="address" itemprop="address">308 West 46th Street New York, NY 10036</p>
+                                <p class="event_date">
+                                    <span>
+                                        <span itemprop="startDate" content="2014-07-08T22:00">Jul 8, 2014</span>
+                                        To <span itemprop="endDate" content="2019-07-08T23:30">Jul 8, 2019</span>
+                                    </span>
+                                </p>
+                                <p class="time"><span>10:00 pm To 11:30 pm</span></p><!--googleoff: all-->
+                                <p class="phone">+86 10 6538 5537</p><!--googleon: all-->									
+                            </div>
+                        </div>
+
+                        <!--Start Post Content -->
+                        <div class="rev_pin">
+                            <ul> 
+                                <li class="favourite">				
+                                    <span id="tmplfavorite_27121" class="fav fav_27121">
+                                        <a href="javascript:void(0);" data-reveal-id="tmpl_reg_login_container" id="tmpl_login_frm_27121" data-id="27121" class="addtofav  small_btn">Add to favorites</a>
+                                    </span>
+                                </li>
+
+                                <li class="review"> 
+                                    <a id="reviews_show" href="">8 &nbsp;</a>
+                                </li>
+
+                                <li class="pinpoint">
+                                    <a id="pinpoint_27121" class="ping" href="#map_canvas">Pinpoint</a>
+                                </li>               
+                            </ul>
+                        </div>							
+                    </div>
+                </article>
+                <article class="post  event-27129 ">
+                    <div class="event_img"> 
+                        <a href="">
+                            <img itemprop="image" src="http://demo.templatic.com/eventum/../images/event/event-(14)-250x165.jpg" alt="" title="event-(14)">
+                        </a>
+
+                    </div>
+                    <div class="entry">
+                        <!--start post type title -->
+                        <div class="event-wrapper">
+                            <div class="event-title">
+                                <span class="date">
+                                    08			<span>Jul</span>
+                                </span>
+                                <h2 class="entry-title">
+                                    <a itemprop="url" href="" title="No Name @ Word Up The Return" rel="bookmark">No Name @ Word Up The Return</a>
+                                </h2>
+                                <div class="listing_rating">
+                                    <div class="directory_rating_row">
+                                        <span class="single_rating"> 
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end post type title -->
+                            <!-- Entry details start -->
+                            <div class="entry-details">
+                                <p class="address" itemprop="address">2113 Amsterdam Ave at 165th St New York, NY 10032</p>
+                                <p class="event_date">
+                                    <span>
+                                        <span itemprop="startDate" content="2014-07-08T12:00">Jul 8, 2014</span>
+                                        To <span itemprop="endDate" content="2017-07-08T14:00">Jul 8, 2017</span>
+                                    </span>
+                                </p>
+                                <p class="time"><span>12:00 pm To 2:00 pm</span></p><!--googleoff: all-->
+                                <p class="phone">(805) 735-2281111</p><!--googleon: all-->									
+                            </div>
+                        </div>
+
+                        <!--Start Post Content -->
+                        <div class="rev_pin">
+                            <ul> 
+                                <li class="favourite">				
+                                    <span id="tmplfavorite_27129" class="fav fav_27129">
+                                        <a href="javascript:void(0);" data-reveal-id="tmpl_reg_login_container" id="tmpl_login_frm_27129" data-id="27129" class="addtofav  small_btn">Add to favorites</a>
+                                    </span>
+                                </li>
+
+                                <li class="review"> 
+                                    <a id="reviews_show" href="">8 &nbsp;</a>
+                                </li>
+
+                                <li class="pinpoint">
+                                    <a id="pinpoint_27129" class="ping">Pinpoint</a>
+                                </li>               
+                            </ul>
+                        </div>							
+                    </div>
+                </article>
+                <article class="post  event-27137 ">
+                    <div class="event_img"> 
+                        <a href="">
+                            <img itemprop="image" src="http://demo.templatic.com/eventum/../images/event/event-(16)-250x165.jpg" alt="" title="event-(16)">
+                        </a>
+                    </div>
+                    <div class="entry">
+                        <!--start post type title -->
+                        <div class="event-wrapper">
+                            <div class="event-title">
+                                <span class="date">
+                                    08	<span>Jul</span>
+                                </span>
+                                <h2 class="entry-title">
+                                    <a itemprop="url" href="" title="James Darren (music) &amp; Sal Richards (comedy)" rel="bookmark">James Darren (music) &amp; Sal Richards (comedy)</a>
+                                </h2>
+                                <div class="listing_rating">
+                                    <div class="directory_rating_row">
+                                        <span class="single_rating"> 
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                            <i class="rating-on"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end post type title -->
+                            <!-- Entry details start -->
+                            <div class="entry-details">
+                                <p class="address" itemprop="address">222-05 56th Avenue Bayside, NY 11364</p>
+                                <p class="event_date">
+                                    <span>
+                                        <span itemprop="startDate" content="2014-07-08T15:00">Jul 8, 2014</span>
+                                        To <span itemprop="endDate" content="2019-07-08T17:00">Jul 8, 2019</span>
+                                    </span>
+                                </p>
+                                <p class="time">
+                                    <span>3:00 pm To 5:00 pm</span></p><!--googleoff: all-->
+                                <p class="phone">+86 10 6538 5537</p><!--googleon: all-->									
+                            </div>
+                        </div>
+
+                        <!--Start Post Content -->
+                        <div class="rev_pin">
+                            <ul> 
+                                <li class="favourite">
+                                    <span id="tmplfavorite_27137" class="fav fav_27137">
+                                        <a href="javascript:void(0);" data-reveal-id="tmpl_reg_login_container" id="tmpl_login_frm_27137" data-id="27137" class="addtofav  small_btn">Add to favorites</a>
+                                    </span>
+                                </li>
+
+                                <li class="review"> 
+                                    <a id="reviews_show" href="">8 &nbsp;</a>
+                                </li>
+
+                                <li class="pinpoint">
+                                    <a id="pinpoint_27137" class="ping" href="#map_canvas">Pinpoint</a>
+                                </li>               
+                            </ul>
+                        </div>							
+                    </div>
+                </article>
+                <article class="post  event-27153 ">
+                    <div class="event_img"> 
+                        <a href="http://demo.templatic.com/eventum/city/new-york/event/comedy-club/">
+                            <img itemprop="image" src="http://demo.templatic.com/eventum/../images/event/event-(18)-250x165.jpg" alt="" title="event-(18)">
+                        </a>
+
+                    </div>
+                    <div class="entry">
+                        <!--start post type title -->
+
+                        <div class="event-wrapper">
+                            <div class="event-title">
+                                <span class="date">
+                                    08			<span>Jul</span>
+                                </span>
+                                <h2 class="entry-title"><a itemprop="url" href="http://demo.templatic.com/eventum/city/new-york/event/comedy-club/" title="Comedy Club" rel="bookmark">Comedy Club</a></h2>
+                                <div class="listing_rating">
+                                    <div class="directory_rating_row"><span class="single_rating"> <i class="rating-on"></i><i class="rating-on"></i><i class="rating-on"></i><i class="rating-on"></i><i class="rating-on"></i> </span></div>
+                                </div>
+                            </div>
+                            <!--end post type title -->
+                            <!-- Entry details start -->
+                            <div class="entry-details">
+                                <p class="address" itemprop="address">266 West 37th Street New York, NY 10018</p><p class="event_date"><span><span itemprop="startDate" content="2014-07-08T15:00">Jul 8, 2014</span> To <span itemprop="endDate" content="2019-07-08T17:00">Jul 8, 2019</span></span></p><p class="time"><span>3:00 pm To 5:00 pm</span></p><!--googleoff: all--><p class="phone">+86 10 6538 5537</p><!--googleon: all-->									</div>
+                        </div>
+
+                        <!--Start Post Content -->
+                        <div class="rev_pin"><ul> 
+                                <li class="favourite">				<span id="tmplfavorite_27153" class="fav fav_27153"><a href="javascript:void(0);" data-reveal-id="tmpl_reg_login_container" id="tmpl_login_frm_27153" data-id="27153" class="addtofav  small_btn" onclick="javascript:addToFavourite('27153', 'add');">Add to favorites</a></span>
+                                </li>
+
+                                <li class="review"> <a id="reviews_show" href="http://demo.templatic.com/eventum/city/new-york/event/comedy-club/#comments">8 &nbsp;</a></li>
+
+                                <li class="pinpoint"><a id="pinpoint_27153" class="ping" href="#map_canvas">Pinpoint</a></li>               
+                            </ul></div>							</div>
+                </article>
+                <div id="listpagi">
+                    <div class="pagination pagination-position">
+                        <a class="current page-numbers">1</a><a href="http://demo.templatic.com/eventum/city/new-york/ecategory/events/page/2/" class="page-numbers" title="2"><strong>2</strong></a><a href="http://demo.templatic.com/eventum/city/new-york/ecategory/events/page/2/" class="next page-numbers"><strong>NEXT</strong></a>                  </div>
+                </div>
+            </section>
+            <!--End loop taxonomy page -->
+        </div>
+        <!-- #content --> 
+
+        <!--single post type sidebar -->
+        <div id="sidebar-primary" class="sidebar large-3 small-12 columns">
+            <!-- 160x600 ad_space -->
+            <div id="templatic_text-1" class="widget templatic_text">
+                <div class="widget-wrap widget-inside">		
+                    <div class="textwidget text-center">	
+                        <a href="">
+                            <img src="app/assets/images/ads images/160x600.jpg">
+                        </a>	
+                    </div>
+                </div>
+            </div>
+            <!-- 300x150 ad_space -->
+            <div id="templatic_text-1" class="widget templatic_text">
+                <div class="widget-wrap widget-inside">		
+                    <div class="textwidget text-center">	
+                        <a href="">
+                            <img src="app/assets/images/ads images/300x150.jpg">
+                        </a>	
+                    </div>
+                </div>
+            </div>
+
+            <!-- 300x250 ad_space -->
+            <div id="templatic_text-1" class="widget templatic_text">
+                <div class="widget-wrap widget-inside">		
+                    <div class="textwidget text-center">	
+                        <a href="">
+                            <img src="app/assets/images/ads images/300x250.jpg">
+                        </a>	
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end single post type sidebar --> 
+        <!-- end  content part-->
+    </div>
+    <!-- .wrap -->
+</section>
+
+<app-footer></app-footer>

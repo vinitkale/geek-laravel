@@ -1,0 +1,10 @@
+/*  
+Theme Name:    Eventum
+Theme URI:     http://templatic.com/
+Description:   A Directory child theme inherited with all the parent features and functions to create an awesomely advance directory site beautified with fresh look and feel.
+Version:       1.1.0
+Author:        Templatic.com
+Author URI:    http://templatic.com/
+Template: Directory
+*/
+@import url(../Directory/css/admin_style.css);

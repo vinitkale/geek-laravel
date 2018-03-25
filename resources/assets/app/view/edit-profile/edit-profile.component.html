@@ -1,0 +1,102 @@
+<app-header></app-header>
+
+<section id="main" class="clearfix">
+    <div class="wrap row">
+        <div class="breadcrumb breadcrumbs columns">
+            <div class="breadcrumb-trail">
+                <span class="trail-begin">
+                    <a href="" title="wamasoftware" rel="home" class="trail-begin">Home</a>
+                </span> 
+                <span class="sep">»</span> 
+                <span class="trail-end">Edit Profile</span>
+            </div>
+        </div>
+
+        <!-- start content part-->
+        <div id="content" role="main" class="large-9 small-12 columns" jstcache="0">
+            <div class="event-add">
+                <h3>Edit Profile</h3>
+            </div>
+
+            <form name="profile edit" id="event-add" action="#" method="post">
+                <div class="event-edit-form large-9 small-12 columns">
+                    <div class="form_row clearfix">
+                        <label>Profile Photo<span class="indicates">*</span></label>
+                        <div class="col-sm-10 -m-rl-15">
+                            <input type="file" name="" value="" class="form-control textfield"> 
+                        </div>
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>First Name <span class="indicates">*</span></label>
+                        <input type="text" name="" id="" value="Wama" class="form-control textfield"> 
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Last Name <span class="indicates">*</span></label>
+                        <input type="text" name="" id="" value="Software" class="form-control textfield"> 
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Address <span class="indicates">*</span></label>
+                        <textarea class="textfield" placeholder="New street, near past colony, UA" style="height: 100px"></textarea> 
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Birth date<span class="indicates">*</span></label>
+                        <input type="text" id="birth-date" placeholder="04-07-1994" class="form-control textfield"> 
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Birth place<span class="indicates">*</span></label>
+                        <input type="text" name="" id="" value="New-York" class="textfield"> 
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Gender <span class="indicates">*</span></label>
+                        <div class="col-sm-12">
+                            <label class=""><input type="radio" name="gender" checked />Male </label>
+                            <label><input type="radio" name="gender" />Female </label>
+                        </div>
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>City<span class="indicates">*</span></label>
+                        <input type="text" name="" id="" value="San Francisco" class="form-control textfield"> 
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Zip Code<span class="indicates">*</span></label>
+                        <input type="text" name="" id="" value="94107" class="form-control textfield"> 
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Email<span class="indicates">*</span></label>
+                        <input type="email" name="" value="wama.software@gmail.com" class="form-control textfield">
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Contact</label>
+                        <input type="tel" name="" value="9876543210" class="form-control textfield"> 
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Interest Topic</label>
+                        <div class="col-sm-12 -m-rl-15">
+                            <select id="multiple" class="textfield select2-multiple" multiple>
+                                <optgroup label="Tech">
+                                    <option>Cisco</option>
+                                    <option>Database</option>
+                                    <option>Microsoft's</option>
+                                    <option>Networking</option>
+                                    <option>Open Source</option>
+                                    <option>IT</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>About Me</label>
+                        <textarea class="ckeditor form-control" name="editor1" rows="6"></textarea>
+                    </div>
+                    <div class="form_row ">
+                        <a class="btn btn-warning" type="submit" value="Save" name="submit">Update</a>
+                        <a class="btn btn-warning" type="reset" value="Save" name="submit">Cancel</a>	
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- .wrap -->
+</section>
+
+<app-footer></app-footer>

@@ -1,0 +1,64 @@
+    <div id="tmpl_login_frm" style=""> 
+    	<div class="login_form_l" style="width: 30%;margin:0;margin-left: 35%; margin-top: 10%;">
+    		<h3>Sign In</h3>			
+    		<div class="login_form_box" style="">
+    			<form name="popup_login" id="popup_login" action="#" method="post">
+    				<input type="hidden" name="action" value="login">                         
+    				<div class="form_row clearfix">
+    					<label>Email <span class="indicates">*</span> </label>
+    					<input type="email" name="log" id="user_login" value="" size="20" class="textfield">
+    					<span id="user_loginInfo"></span> 
+    				</div>
+
+    				<div class="form_row clearfix">
+    					<label> Password <span class="indicates">*</span> </label>
+    					<input type="password" name="pwd" id="user_pass" class="textfield" value="" size="20">
+    					<span id="user_passInfo"></span> 
+    				</div>
+    				<input type="hidden" name="redirect_to" value="#">
+    				<input type="hidden" name="testcookie" value="1">
+    				<div class="form_row rember clearfix">
+                        <!-- <label>
+                            <input name="rememberme" type="checkbox" id="rememberme" value="forever" class="fl">
+                            Remember me on this computer 
+                        </label> -->	
+                        <!-- html to show social login -->
+                        <a onclick="showhide_forgetpw('popup_login');" href="javascript:void(0)" class="lw_fpw_lnk">Forgot your password?</a> 
+                    </div>
+
+                    <div class="form_row ">
+                    	<a class="btn btn-warning" (click)="redirectToHome()" type="submit" value="Save" name="submit">Sign In</a>
+                    	<!--  <p class="forgot_link">New User? <a href="javascript:void(0)" class="logreg-link" onclick="tmpl_registretion_frm();" id="tmpl-reg-link">Sign Up</a></p> -->
+                    </div> 
+                </form>
+
+
+               <!--  <div class="forgotpassword" id="lostpassword_form" style="display:none;">
+                    <h3>Forgot password</h3>
+                    <form name="popup_login_forgot_pass" id="popup_login_forgot_pass" action="" method="post">
+                        <input type="hidden" name="action" value="lostpassword">
+                        <div class="form_row clearfix">
+                            <label> Email: </label>
+                            <input type="text" name="user_login" id="user_login_email" value="" size="20" class="textfield">
+                            <span id="forget_user_email_error" class="message_error2"></span>
+                        </div>
+                        <input type="hidden" name="pwdredirect_to" value="">
+                        <a class="btn btn-warning" type="submit" value="Save" name="submit">Get New Password</a>
+                    </form>
+                </div>
+            </div> -->
+            <!-- Enable social media(gigya plugin) if activated-->         
+            <!--End of plugin code-->
+
+            <!-- <script type="text/javascript" async="">
+                function showhide_forgetpw(form_id)
+                {
+                    jQuery(document).on('click', 'form#' + form_id + ' .lw_fpw_lnk', function (e) {
+                        jQuery(this).closest('form#' + form_id).next().show();
+                        e.preventDefault();
+                        return false;
+                    });
+                }
+            </script> -->
+        </div>		
+    </div>

@@ -1,0 +1,88 @@
+<app-header></app-header>
+
+<section id="main" class="clearfix">
+    <div class="wrap row">
+        <div class="breadcrumb breadcrumbs columns">
+            <div class="breadcrumb-trail">
+                <span class="trail-begin">
+                    <a href="#" title="GeekMeet" rel="home" class="trail-begin">Home</a>
+                </span> 
+                <span class="sep">»</span> <span>Profile</span>
+            </div>
+        </div>
+
+
+
+        <section id="content" class="large-9 small-12 columns">
+            <div class="form-group">
+                <div class="col-sm-12 col-xs-12">
+                    <a href="" [routerLink]="['/edit_profile']" class="btn btn-warning pull-right">Edit Profile </a>
+                </div>
+            </div>
+            <div class="author_cont">
+                <!-- Author photo on left side start -->
+                <div class="author_photo">
+                    <img src="app/assets/images/avatars/team3.jpg" alt="admin" title="admin">			
+                </div>
+                <!-- Author photo on left side end -->
+
+                <!-- Author photo on right side start -->
+                <div class="right_box">
+                    <h2>Wama Software</h2>
+                    <div class="user_dsb_cf">
+                        <div>
+                            <label><i class="fa fa-home"></i> Address :</label>
+                            <span><p>New Street, near past colony, UA</p></span>
+                        </div>
+                        <div>
+                            <label><i class="fa fa-calendar"></i> Birth date :</label>
+                            <span><p>04-07-1994</p></span>
+                        </div>
+                        <div>
+                            <label><i class="fa fa-hospital-o"></i> Birth place :</label>
+                            <span><p>New-York</p></span>
+                        </div>
+                        <div>
+                            <label><i class="fa fa-male"></i> Gender :</label>
+                            <span><p>Male</p></span>
+                        </div>
+                        <div>
+                            <label><i class="fa fa-building-o"></i> City :</label>
+                            <span><p>San Francisco</p></span>
+                        </div>
+                        <div>
+                            <label><i class="fa fa-codepen"></i> Zip Code :</label>
+                            <span><p>94107</p></span>
+                        </div>
+                        <div>
+                            <label><i class="fa fa-envelope-o"></i> Email :</label>
+                            <span>wama.software@gmail.com</span>
+                        </div>
+                        <div>
+                            <label><i class="fa fa-phone"></i> Phone :</label>
+                            <span>9876543210</span>
+                        </div>
+                        <div>
+                            <label><i class="fa fa-list"></i> Interest Topic:</label>
+                            <span>
+                                <ul class="interest-topic">
+                                    <li>Cisco</li> -
+                                    <li>Database</li> -
+                                    <li>Microsoft's</li> -
+                                    <li>Networking</li>
+                                </ul>
+                            </span>
+                        </div>
+                        <div>
+                            <label><i class="fa fa-user"></i> About Me :</label>
+                            <span><p> This is About the Author section, author himself can add this from his edit profile section. They can write about their experiences with your site.</p></span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Author photo on right side end -->
+            </div>
+        </section>
+    </div>
+</section>
+<app-footer></app-footer>

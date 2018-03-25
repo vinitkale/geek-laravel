@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=9"> <!-- Specially to make clustering work in IE -->
+
+    <title>Home</title>
+</head>
+<body class="wordpress home singular singular-page layout-default tevolution-event-manager event-front-page location_manager mobile-header">
+
+
+    <div id="container" class="container-wrap">
+        <header class="header_container clearfix">
+            <div class="primary_menu_wrapper clearfix">
+                <div class="primary_menu_wrap row">
+                    <div id="branding" class="">
+                        <!-- <hgroup> -->
+                        <div id="site-title">
+                            <a href="" [routerLink]="['/index']" title="GeekMeet" rel="Home">
+                                <img class="logo" src="app/assets/images/logo.png" alt="GeekMeet">
+                            </a>
+                        </div>
+                        <!-- </hgroup> -->
+                    </div>
+
+                    <div class="large-8 columns">
+                        <div class="header-widget-wrap">
+                            <!-- #sidebar-header right start -->
+                            <aside id="sidebar-header" class="sidebar">
+                                <div id="hybrid-nav-menu-1" class="widget nav-menu widget-nav-menu">
+                                    <div class="widget-wrap widget-inside">
+                                        <nav id="nav_widget" class="sub_event">
+                                            <ul id="menu-submit-event" class="nav-menu">
+                                                <li id="menu-item-9371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9371"><a class="text-white" href=""[routerLink]="['/eventadd']">Submit Event <i class="fa fa-plus"></i></a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <div id="directory_search_location-1" class="widget search_key">
+                                    <div class="widget-wrap widget-inside">
+                                        <div class="search_nearby_widget what_fld_search">          
+                                            <form name="searchform_662496511" method="get" class="searchform_662496511 allinone" id="searchform" action="" style="position:relative;">
+                                                <input type="hidden" name="post_type" value="event">
+                                                <input type="hidden" name="mkey[]" value="cats">
+                                                <input type="hidden" name="mkey[]" value="organizer_mobile">
+
+                                                <input type="hidden" name="custom_cat" value="">
+                                                <input type="text" value="" name="s" id="search_near-431712589" class="searchpost placeholder" placeholder="Looking For ..." size="100">
+
+                                                <input type="hidden" name="t" value="acebef955d">
+                                                <input type="hidden" name="t" value="acebef955d">
+                                                <input type="hidden" name="relation" class="sgo" value="OR">
+                                                <input type="submit" class="sgo" value="Search">
+                                                <!--<ul id="search-result" class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" style="display:none;"></ul>-->
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                            <!-- #sidebar-header right end -->
+                        </div>
+                    </div> <!-- large-8 columns -->  
+                    <div class="location_fld_wrapper">
+                        <!-- City name link -->
+                        <div id="loc_city_link" class="toggle_handler primary_location" data-location="location_aslink">
+                            <a id="directorytab"  class=""><img src="app/assets/images/flags/us.png" width="18" height="12" alt="New York"> New York<i class="fa fa-angle-down"></i></a>
+                        </div>
+                        <div id="directory_location_navigation" class="d_location_type_navigation clearfix">
+                            <div id="location_navigation_wrap">
+                                <div id="horizontal_header_location" class="d_location_navigation_left">		
+                                    <div class="my_nearest_city"><a href="">My Nearest City</a></div>
+                                    <ul class="horizontal_location_nav">						
+                                        <li class="cities_names"><a href="">London</a></li>
+                                        <li class="cities_names"><a href="">New York</a></li>
+                                        <li class="cities_names"><a href="">Paris</a></li>
+                                        <li class="cities_names"><a href="">San Francisco</a></li>		
+                                    </ul>
+                                </div>
+                                <div id="location_loading" style="display: none;"><i class="fa fa-circle-o-notch fa-spin"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Primary Navigation Menu Start -->
+                    <div id="menu-primary" class="menu-container">
+                        <nav role="navigation" class="wrap">
+                            <div id="menu-primary-title">
+                                Menu                
+                            </div>
+                            <!-- #menu-primary-title -->
+                            <div class="menu">
+                                <ul id="menu-primary-items" class="primary_menu clearfix">
+                                    <li class=""><a [routerLink]="['/event']">Events</a>
+                                        <ul class="sub-menu">
+                                            <li class=""><a href="" [routerLink] = "['/eventadd']">Cisco</a></li>
+                                            <li class=""><a href="" [routerLink] = "['/eventadd']">Databases</a></li>
+                                            <li class=""><a href="" [routerLink] = "['/eventadd']">Microsoft's</a></li>
+                                            <li class=""><a href="" [routerLink] = "['/eventadd']">Networking</a></li>
+                                            <li class=""><a href="" [routerLink] = "['/eventadd']">Open Source</a></li>
+                                            <li class=""><a href="" [routerLink] = "['/eventadd']">IT</a></li>
+                                            <li class=""><a href="" [routerLink] = "['/eventadd']">User Groups</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class=""><a href="" [routerLink]="['/blog']" > Blog</a></li>
+                                    <li class=""><a href="" [routerLink]="['/sponsors']">Sponsors</a></li>
+                                    <li class=""><a href="" [routerLink]="['/contactus']">Contact Us</a></li>
+                                    <li class="tmpl-login" *ngIf = "!getToken"><a data-reveal-id="tmpl_reg_login_container" href="javascript:void(0);" onclick="tmpl_login_frm();">Sign In</a></li>
+                                    <!--<li class="tmpl-login"><a href="">Logout</a></li>-->
+                                    <li class="tmpl-login" *ngIf = "!getToken"><a data-reveal-id="tmpl_reg_login_container" href="javascript:void(0);" onclick="tmpl_registretion_frm();">Sign Up</a></li>
+                                    <li class="tmpl-login" *ngIf = "getToken"><a>My Account</a>
+                                        <ul class="sub-menu">
+                                            <li class=""><a href="" [routerLink]="['/profile']">Profile</a></li>
+                                            <li class=""><a href="" [routerLink]="['/organization']">My Organization</a></li>
+                                            <li class=""><a href="" [routerLink]="['/groups']">My Groups</a></li>
+                                            <li class=""><a href="" [routerLink]="['/notification-setting']">Notification Settings</a></li> 
+                                            <li class=""><a href="" [routerLink]="['/changepassword']">Change Password</a></li>
+                                            <li class="" (click) = "userLogout()"><a>Logout</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>            
+                        </nav>
+                    </div>
+                    <!-- #menu-primary .menu-container -->
+                    <!-- Primary Navigation Menu End -->
+                </div>
+            </div>
+            <!-- <span *ngIf="name">Hello, {{name}}!</span>
+        <alert dismiss-on-timeout="3000" *ng-for="let alert of alerts" [type]="alert.type">{{ alert.msg }}</alert> -->
+<!--         <alert>message</alert> -->
+        </header>
+
+       
+

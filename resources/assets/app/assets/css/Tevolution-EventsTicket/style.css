@@ -1,0 +1,65 @@
+
+/* Admin CSS */
+#tmpl_show_trans h3 { display: block;  float: left;  padding: 10px 15px;  background: #f7f7f7; border:1px solid #ccc; box-shadow: 0 1px 0 #ccc;  color: #555;  vertical-align: top;  
+ border-radius: 3px; white-space: nowrap; }
+#tmpl_show_trans h3:hover { color:#23282d; border:1px solid #999; }
+ 
+#tmpl_ticket_show_ticket_info { clear:both; padding-top:10px; }
+
+.purchase_table { margin:15px 0; border-bottom:1px solid #f8f8f8; } 
+.purchase_table th { background:#eee; text-align:center; padding:8px 15px; }
+.purchase_table tr:nth-child(even) { background:#fff;  }
+.purchase_table tr:nth-child(odd) { background:#f8f8f8; }
+.purchase_table td:nth-child(5) { text-align:right; }
+.purchase_table td:nth-child(4), .purchase_table td:nth-child(6) { text-align:center; }
+
+.transaction_page_set .form-table td { padding:0; }
+.transaction_page_set .form-table { margin-bottom:20px; }
+.transaction_page_set .form-table th { padding:0; }
+
+/* Author Page */
+.ticket-info span { float:left; padding:6px 0;  }
+.entry p.ticket-info strong { font-weight:bold; } 
+.ticket-info a.button { float:right;   }
+
+.tmpl_buy_ticket { max-width: 49%; left:0; right:0; margin-left:auto; margin-right:auto;}
+.tmpl_buy_ticket tr:nth-child(even) { background:#fff;  }
+.tmpl_buy_ticket tr:nth-child(odd) { background:#f8f8f8; }
+.tmpl_buy_ticket tr:nth-child(1) { background:#fff;}
+.tmpl_buy_ticket th { text-align:center; }
+.tmpl_buy_ticket td { vertical-align:middle; }
+.tmpl_buy_ticket td:nth-child(1) { padding:0; }
+
+.tmpl_buy_ticket td:nth-child(3) { text-align:center; }
+.tmpl_buy_ticket td:nth-child(4) { text-align:right; }
+
+.tmpl_buy_ticket .cancel{ color:red; }
+.tmpl_buy_ticket .approve{ color:green; }
+.tmpl_buy_ticket .attendee{ cursor:pointer; }
+
+
+/* Submit Event */
+.ticket_purchase { margin-bottom:10px; } 
+.ticket_purchase .form_cat_left { padding:0; }
+.ticket_purchase .hr_input_radio li p:first-child {padding-top:20px; padding-bottom:10px; }
+
+
+.how_to_reg { display:table; }
+.claim-post-wraper { margin-bottom:10px !important; }
+.form_row label span#ftrhome, .form_row label span#ftrcat, .form_row .required, .form_row label span { margin-left:0px; }
+
+.hr_input_radio label { width:100% !important; }
+.tmpl_buy_ticket { width:41%; }
+
+.tmpl_buy_ticket tr:last-child { background:rgba(0, 0, 0, 0.1) none repeat scroll 0 0; }
+.tmpl_buy_ticket tr:last-child td:first-child { padding-left:10px; }
+
+.manage-ticket { margin:10px 0; background:#eee; border:1px solid #ccc; padding:10px 15px 5px; }
+.manage-ticket h4 { margin:0 !important; font-size:17px; }
+.manage-ticket  p { marign:0; padding:0 !important; }
+.manage-ticket p.ticket-edit {  position: relative; top:-8px; }
+
+.ticket_success_wrap {  }
+.ticket_success_wrap p.billing_address { float:left; width:45%; }
+.deal_paid { clear:both; }
+.entry-content .deal_paid ul li { margin:0; padding:0; }

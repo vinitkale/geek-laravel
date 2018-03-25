@@ -1,0 +1,152 @@
+<app-header></app-header>
+
+<section id="main" class="clearfix" jstcache="0">
+    <div class="wrap row" jstcache="0">
+
+        <div class="breadcrumb breadcrumbs columns">
+            <div class="breadcrumb-trail">
+                <span class="trail-begin">
+                    <a href="#" title="GeekMeet" rel="home" class="trail-begin">Home</a></span> <span class="sep">»</span> <span>Event Add</span>
+            </div>
+        </div>
+
+        <!-- start content part-->
+        <div id="content" role="main" class="large-9 small-12 columns" jstcache="0">
+            <div class="event-add">
+                <h3>Event Add</h3>
+            </div>
+
+            <form name="event-add" id="event-add" action="#" method="post">
+                <div class="event-edit-form large-6 small-12 columns">
+                    <div class="form_row clearfix">
+                        <label>Event Title<span class="indicates">*</span></label>
+                        <input type="text" name="" id="event-title" value="" class="form-control textfield"> 
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Event Description<span class="indicates">*</span></label>
+                        <textarea id="event-description" value="" rows="5" cols="6" class="textfield" style="height: 194px;"> </textarea>
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Start Date<span class="indicates">*</span></label>
+                        <input id="start-date" class="form-control" type="text"/>
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>End Date<span class="indicates">*</span></label>
+                        <input id="end-date" class="form-control" type="text"/> 
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Time<span class="indicates">*</span></label>
+                        <input type="text" id="event-time" class="form-control"> 
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Website<span class="indicates">*</span></label>
+                        <input type="url" name="" id="website" value="" class="form-control textfield"> 
+                    </div>
+
+                </div>
+
+                <div class="event-edit-form large-6 small-12 columns">
+                    <div class="form_row clearfix">
+                        <label>Country<span class="indicates">*</span></label>
+                        <select class="form-control">
+                            <option>UK</option>
+                            <option>USA</option>
+                            <option>Australia</option>
+                            <option>India</option>
+                            <option>Japan</option>
+                        </select>
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>State<span class="indicates">*</span></label>
+                        <select class="form-control">
+                            <option>State1</option>
+                            <option>State2</option>
+                            <option>State3</option>
+                            <option>State4</option>
+                            <option>State5</option>
+                        </select>
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>City<span class="indicates">*</span></label>
+                        <select class="form-control">
+                            <option>City1</option>
+                            <option>City2</option>
+                            <option>City3</option>
+                            <option>City4</option>
+                            <option>City5</option>
+                        </select>
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Location<span class="indicates">*</span></label>
+                        <input type="text" name="" id="event-location" value="" class="form-control textfield">
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Contact Info<span class="indicates">*</span></label>
+                        <input type="tel" name="" id="contactinfo" value="" class="form-control textfield"> 
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Event Purpose</label>
+                        <input type="text" name="" id="event-location" value="" class="form-control textfield">
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Event Keywords</label>
+                        <div class="">
+                            <select id="multiple" class="form-control select2-multiple" multiple>
+                                <optgroup label="Tech">
+                                    <option>Cisco</option>
+                                    <option>Database</option>
+                                    <option>Microsoft's</option>
+                                    <option>Networking</option>
+                                    <option>Open Source</option>
+                                    <option>IT</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form_row clearfix">
+                        <label>Upload Images</label>
+                        <input type="file" name="" id="event-images" value="" class="form-control textfield"> 
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form_row ">
+                        <a class="btn btn-warning" type="submit" value="Save" name="submit">Save</a>	
+                        <a class="btn btn-warning" type="reset" value="Cancel" name="reset">	Cancel</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- #content --> 
+
+        <!--single post type sidebar -->
+        <div id="sidebar-primary" class="sidebar large-3 small-12 columns">
+            <!-- 300x600 ad_space -->
+            <div id="templatic_text-1" class="widget templatic_text">
+                <div class="widget-wrap widget-inside">		
+                    <div class="textwidget text-center">	
+                        <a href="">
+                            <img src="app/assets/images/ads images/300x600.jpg">
+                        </a>	
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 300x150 ad_space -->
+            <div id="templatic_text-1" class="widget templatic_text">
+                <div class="widget-wrap widget-inside">		
+                    <div class="textwidget text-center">	
+                        <a href="">
+                            <img src="app/assets/images/ads images/300x150.jpg">
+                        </a>	
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end single post type sidebar --> 
+        <!-- end  content part-->
+    </div>
+    <!-- .wrap -->
+</section>
+
+<app-footer></app-footer>
+
